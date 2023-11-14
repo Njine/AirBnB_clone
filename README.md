@@ -1,40 +1,45 @@
 ## Description
-	To construct our initial full-fledged web application: the AirBnB clone. During this initial stage, a fundamental console has been developed using the Cmd Python module. This console serves as the command-line interface for managing objects throughout the entire project. It encompasses the implementation of essential methods such as create, show, update, all, and destroy for both the existing classes and their subclasses.
+To construct our initial full-fledged web application:
+The AirBnB clone. During this initial stage, a fundamental console has been developed using the Cmd Python module.
+This console serves as the command-line interface for managing objects throughout the entire project. It encompasses the implementation of essential methods such as create, show, update, all, and destroy for both the existing classes and their subclasses.
 
 
-##Files
+## Files
 
+## Files
 
+| File/Folder                    | Description                         |
+| ------------------------------ | ----------------------------------- |
+| `AUTHORS`                       | Authors of the project              |
+| `console.py`                   | Main console script                 |
+| `models/`                      | Directory for Python modules        |
+| ├── `amenity.py`                | Amenity class module                |
+| ├── `base_model.py`             | BaseModel class module              |
+| ├── `city.py`                   | City class module                   |
+| ├── `engine/`                   | Engine directory                    |
+| │   ├── `file_storage.py`       | FileStorage class module            |
+| │   └── `__init__.py`           | Initialization script for engine    |
+| ├── `__init__.py`               | Initialization script for models    |
+| ├── `place.py`                  | Place class module                  |
+| ├── `review.py`                 | Review class module                 |
+| ├── `state.py`                  | State class module                  |
+| └── `user.py`                   | User class module                   |
+| `README.md`                     | Project README file                 |
+| `tests/`                        | Directory for test scripts           |
+| ├── `__init__.py`               | Initialization script for tests     |
+| └── `test_models/`              | Directory for model tests           |
+| ├── `__init__.py`               | Initialization script for model tests |
+| ├── `test_amenity.py`           | Amenity class test script           |
+| ├── `test_base_model.py`        | BaseModel class test script         |
+| ├── `test_city.py`              | City class test script               |
+| ├── `test_engine/`              | Directory for engine tests          |
+| │   ├── `__init__.py`           | Initialization script for engine tests |
+| │   └── `test_file_storage.py`  | FileStorage class test script       |
+| ├── `test_place.py`             | Place class test script             |
+| ├── `test_review.py`            | Review class test script            |
+| ├── `test_state.py`             | State class test script             |
+| └── `test_user.py`              | User class test script              |
 
-├── AUTHORS
-├── console.py
-├── models
-│   ├── amenity.py
-│   ├── base_model.py
-│   ├── city.py
-│   ├── engine
-│   │   ├── file_storage.py
-│   │   ├── __init__.py
-│   ├── __init__.py
-│   ├── place.py
-│   ├── review.py
-│   ├── state.py
-│   └── user.py
-├── README.md
-├── tests
-    ├── __init__.py
-    └── test_models
-        ├── __init__.py
-        ├── test_amenity.py
-        ├── test_base_model.py
-        ├── test_city.py
-        ├── test_engine
-        │   ├── __init__.py
-        │   └── test_file_storage.py
-        ├── test_place.py
-        ├── test_review.py
-        ├── test_state.py
-        └── test_user.py
 
 
 ## Usage

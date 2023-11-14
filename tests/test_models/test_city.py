@@ -36,7 +36,8 @@ class TestCity(unittest.TestCase):
             self.assertFalse(bool(getattr(self.city, attr)))
 
     def test_set_attribute_values(self):
-        """Verify that setting attribute values results in the expected values."""
+        """Verify that setting attribute values
+        results in the expected values."""
         expected_state_id = "CA"
         expected_name = "San Francisco"
 

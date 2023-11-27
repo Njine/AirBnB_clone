@@ -1,0 +1,114 @@
+/* Body Styles */
+body {
+  position: relative;
+}
+
+/* General styles for section Places */
+section.places {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+/* Styles for articles that contain information about rooms */
+section.places article {
+  width: 390px;
+  padding: 0 10px 10px 10px;
+  margin: 20px;
+  border: 1px solid #ff5a5f;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+
+section.places h1 {
+  font-size: 30px;
+  padding-left: 20px;
+  flex: 100%;
+}
+
+section.places article h2 {
+  font-size: 30px;
+  align-self: center;
+  margin: 0;
+  margin-top: 15px;
+}
+
+/* Styles for div that contains price */
+section.places article div.price_by_night {
+  border: 4px #ff5a5f solid;
+  border-radius: 50%;
+  min-width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-top: -40px;
+  margin-bottom: 5px;
+}
+
+section.places article div.price_by_night h3 {
+  color: #ff5a5f;
+  font-size: 30px;
+}
+
+/* Styles for div that contains information */
+div.information {
+  height: 80px;
+  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* Icon title */
+div.information h5 {
+  margin-top: 50px;
+  margin-left: -4px;
+}
+
+div.information div.max_guest,
+div.information div.number_rooms,
+div.information div.number_bathrooms {
+  width: 100px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+div.information div.max_guest {
+  background-image: url("../images/icon_group.png");
+}
+
+div.information div.number_rooms {
+  background-image: url("../images/icon_bed.png");
+}
+
+div.information div.number_bathrooms {
+  background-image: url("../images/icon_bath.png");
+}
+
+/* User - Owner information */
+div.user {
+  display: flex;
+  flex-direction: row;
+}
+
+div.user h4 {
+  font-weight: bolder;
+  margin-right: 3px;
+}
+
+/* Description */
+div.description {
+  margin-top: -25px;
+}

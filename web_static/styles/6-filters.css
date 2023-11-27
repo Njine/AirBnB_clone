@@ -65,6 +65,8 @@ ul.popover ul li h2 {
     font-size: 16px;
 }
 
-.filters div:hover ul.popover {
-  display: block;
+.filters div.locations:hover ul.popover,
+section.filters .amenities:hover ul.popover {
+    display: block;
 }
+
